@@ -1,0 +1,368 @@
+@media (max-width: 1024px) {
+	body {
+		width: 100%;	
+	}
+}
+
+.wrapper {
+	width: 100%;;
+	margin: 0 auto;
+	background: url(image/fon.jpg) center top no-repeat;
+}
+											/*HEADER*/
+
+.header {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.namepage {
+	float: left;
+}
+
+h2 {
+	font-size: 36px;
+	padding-top: 70px;
+	padding-bottom: 170px;
+	color: #ffffff;
+}
+
+.twoliters {
+	background: linear-gradient(to bottom, #745083, #33263a);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.headermenu {
+	float: right;
+}
+
+.headermenu li {
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 77px;
+}
+
+.headermenu a {
+	text-decoration: none;	
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.headermenu a:hover {
+	text-decoration: underline;
+	color: #541a6e;
+}
+
+.caption h1 {
+	margin-top: 80px;
+	font-size: 45px;
+	color: #ffffff;
+}
+
+.caption h3 {
+	font-size: 24px;
+	color: #edbfff;
+}
+
+.caption p {
+	width: 500px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+}	
+
+.caption img {
+	float: right;
+	width: 250px;
+	height: 335px;
+	margin-right: 25px;
+}
+
+.backgroundcaption {
+	width: 100%;
+	background: rgba( 0, 0, 0, 0.5);
+}
+
+.caption {
+	overflow: hidden;
+	width:960px; 
+	margin: 0 auto;
+}
+											/*CONTENT*/
+
+.backgroundaboutcompany {
+	width: 100%;
+	background: linear-gradient(to bottom, #745083, #33263a);
+}
+
+.aboutcompany {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 80px 0 70px 0;
+}
+
+.aboutcompany img{
+	height: 22px;
+	width: 20px;
+}
+
+.picture {
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.text {
+	margin-left: 40px;
+}
+
+.aboutcompany h3 {
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.aboutcompany p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.aboutcompany a {
+	float: right;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.aboutcompanyfirst {
+	display: inline-block;
+	float: left;
+	width: 33.3%;
+}
+
+.aboutcompanysecond {
+	display: inline-block;
+	float: left;
+	width: 33.3%;
+}
+
+.aboutcompanythird {
+	display: inline-block;
+	float: right;
+	width: 33.3%;
+}
+
+.news {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.backgroundnews {
+	width: 100%;
+	background: #f9f9f9;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.columnone {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+.columnone img {
+	position: relative;
+	top: 95px;
+	left: 5px;
+	height: 45px;
+	width: 46px;
+}
+
+.comment{
+	background: #fff;
+	border: 1px solid #efefef;
+	margin: 40px 45px 0 25px;
+	padding: 20px 30px;
+}
+
+.comment h4 {
+	color: #454545;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.comment p {
+	color: #454545;
+	font-size: 16px;
+	line-height: 20px;  
+}
+
+.othercolor {
+	color: #edbfff;
+}
+
+.columntwo {
+	display: inline-block;
+	float: right;
+	width: 50%;
+}
+
+.picturetwo img {
+	height: 35px;
+	width: 35px;
+}
+
+.picturetwo {
+	float: left;
+	margin-right: 10px;
+}
+
+.updateone {
+	overflow: hidden;
+}
+
+.updatetwo {
+	overflow: hidden;
+}
+
+.namelinetwo {
+	font-size: 18px;
+	color: #454545;
+	font-weight: bold;
+	margin: 80px 0 12px 0;
+}
+
+.columntwo p {
+	color: #454545;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.columntwo h5 {
+	color: #454545;
+	font-weight: bold;
+}
+
+.columntwo a {
+	display: inline-block;
+	float: right;
+	color: #454545;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 12px 0 80px 0;
+}
+
+.logoimg {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.logoimg img {
+	padding: 25px 90px 25px 90px;
+}
+
+.aboutus{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+
+.aboutusone {
+	display: inline-block;
+	float: left;
+	width: 33.3%;
+}
+
+.aboutus h3{
+	color: #454545;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.aboutus h3 span {
+	color: #b9b9b9;
+}
+
+.aboutus h4 {
+	color: #454545;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.aboutus p {
+	line-height: 18px;
+	color: #454545;
+}
+
+.aboutustwo {
+	display: inline-block;
+	float: left;
+	width: 33.3%;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+
+.aboutusthree {
+	display: inline-block;
+	float: right;
+	width: 33.3%;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+
+.backgroundaboutus {
+	width: 100%;
+	background: #ececec;
+	border-top: 1px solid #d8d8d8;
+}
+
+											/*FOOTER*/
+.backgroundfooter {
+	width: 100%;
+	margin: 0 auto;
+	background: url(image/bg-copy.png) center top no-repeat;
+}	
+
+.footer {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.footmenu li {
+	display: inline-block;
+	float: left;
+	margin: 40px 40px 40px 0;
+}
+
+.footmenu li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footmenu a:hover {
+	text-decoration: underline;
+	color: #541a6e;
+}
+
+.as {
+	float: right;
+	margin-top: 40px;
+}
+
+.as small {
+	font-size: small;
+	color: #ffffff;
+}
+
+.as span {
+	font-weight: bold;
+}
